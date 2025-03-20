@@ -25,7 +25,7 @@ namespace Studing
             Random dado = new Random();
             int soma1 = 0;
             int soma2 = 0;
-            char jogar = 's'; // Variável corrigida para armazenar a resposta do jogador
+            char jogar = 's'; 
 
             while (jogar == 's' || jogar == 'S')
             {
