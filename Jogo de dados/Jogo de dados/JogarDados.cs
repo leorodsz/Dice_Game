@@ -6,7 +6,7 @@ namespace Studing
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Jogo de dados");
+            Console.WriteLine("Jogo de dados legal");
             Console.WriteLine("Digite o nome do primeiro jogador: ");
             string jogador1 = Console.ReadLine();
             Console.Clear();
@@ -25,7 +25,7 @@ namespace Studing
             Random dado = new Random();
             int soma1 = 0;
             int soma2 = 0;
-            char jogar = 's'; 
+            char jogar = 's';
 
             while (jogar == 's' || jogar == 'S')
             {
@@ -59,8 +59,8 @@ namespace Studing
                 }
 
                 Console.WriteLine("\nDeseja jogar novamente? (s/n)");
-                jogar = Console.ReadKey().KeyChar; 
-                Console.Clear(); 
+                jogar = Console.ReadKey().KeyChar;
+                Console.Clear();
             }
 
             Console.WriteLine("\nFim do jogo!");
