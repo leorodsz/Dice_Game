@@ -7,6 +7,7 @@ namespace Studing
         public static void Main(string[] args)
         {
             Console.WriteLine("Jogo de dados legal");
+            //Console.WriteLine(level.gameLevel(1));
             Console.WriteLine("Digite o nome do primeiro jogador: ");
             string jogador1 = Console.ReadLine();
             Console.Clear();
